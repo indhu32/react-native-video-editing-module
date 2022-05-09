@@ -6,7 +6,7 @@ import { VideoEditingModuleView } from 'react-native-video-editing-module';
 export default function App() {
   return (
     <View style={styles.container}>
-      <VideoEditingModuleViewManager color="#32a852" style={styles.box} />
+      <VideoEditingModuleView color="#32a852" style={styles.box} />
     </View>
   );
 }
